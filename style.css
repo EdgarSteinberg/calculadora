@@ -43,6 +43,10 @@ input[type="button"]{
     cursor: pointer;
 }
 
+input[type="button"]:active {
+    background-color: #001f3f;
+}
+
 input[type="button"]:hover {
     background-color: #001f3f;
 }
