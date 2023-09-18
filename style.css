@@ -1,6 +1,6 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
-    background-image:  linear-gradient(to right, red, blue);
+    background-image:  linear-gradient(to right, rgb(238, 14, 70), rgb(255, 0, 13));
 }
 
 h1 {
@@ -11,13 +11,13 @@ h1 {
 h2 {
     text-align: center;
     margin-top: 10px;
-    color: #666;
+    color: #cecece;
 }
 
 .calculadora {
     width: 314px;
     margin: 0 auto;
-    background-color: #ffffff00;
+    background-color: #ffffff33;
     padding: 20px;
     border-radius: 5px;
     box-shadow: 0 2px 5px black;
@@ -44,11 +44,11 @@ input[type="button"]{
 }
 
 input[type="button"]:active {
-    background-color: #001f3f;
+    background-color: #001f3f3d;
 }
 
 input[type="button"]:hover {
-    background-color: #001f3f;
+    background-color: #001f3f33;
 }
 
 input[type="button"]:last-child {
